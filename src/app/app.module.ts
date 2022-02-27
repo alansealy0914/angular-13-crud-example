@@ -8,13 +8,17 @@ import { AppComponent } from './app.component';
 import { AddTutorialComponent } from './components/add-tutorial/add-tutorial.component';
 import { TutorialDetailsComponent } from './components/tutorial-details/tutorial-details.component';
 import { TutorialsListComponent } from './components/tutorials-list/tutorials-list.component';
+import { GpsComponent } from './components/gps/gps.component';
+import { GpsDetailsComponent } from './components/gps-details/gps-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddTutorialComponent,
     TutorialDetailsComponent,
-    TutorialsListComponent
+    TutorialsListComponent,
+    GpsComponent,
+    GpsDetailsComponent
   ],
   imports: [
     BrowserModule,
