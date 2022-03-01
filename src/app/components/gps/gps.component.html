@@ -1,1 +1,70 @@
-<p>gps works!</p>
+
+
+<div class="container">
+    <div class="row">
+      <div class="col-sm">
+        
+            <div class="card-header"><label><strong>Carrier: MTT Trucking Co.</strong></label> </div>
+            <!--<div class="card-header"><label><strong>{{ currentTutorial.title }}</strong></label> </div>-->
+            <div class="card-body text-danger">
+             
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-info">Send (MQTT)</a>
+            </div>
+          </div>
+          <a href="#"><img src="../../assets/gpsTracker.jpg" class="gps" currentTutorial.id></a> 
+         
+      </div>
+      
+        
+      
+      
+    </div>
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div *ngIf="currentTutorial.id">
+    <h4>GPS-MQTT</h4><br>
+    <div>
+      <label><strong>Carrier:</strong></label> {{ currentTutorial.title }}
+    </div></div>
+    <!--<div>
+      <label><strong>Description:</strong></label>
+      {{ currentGps.description }}
+    </div><br>
+    <div>
+      <label><strong>Status:</strong></label>
+      {{ currentGps.published ? "Published" : "Pending" }}
+    </div>
+
+    <a
+      class="btn btn-warning"
+      routerLink="/tutorials/{{ currentGps.id }}"
+    >
+      Edit
+    </a>&nbsp;
+    <a
+      class="btn btn-info"
+      routerLink="/gps"
+    >
+      GPS/MQTT
+    </a>
+  </div>-->
