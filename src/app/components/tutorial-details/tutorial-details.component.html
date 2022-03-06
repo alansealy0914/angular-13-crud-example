@@ -1,3 +1,6 @@
+<!--<h3 style="color: cadetblue; margin-left:75px;">Fleet Edit</h3>-->
+
+
 <div *ngIf="viewMode; else editable">
   <div *ngIf="currentTutorial.id">
     <h4>Log Manifest</h4><br>
@@ -34,11 +37,15 @@
 </div>
 
 <ng-template #editable>
+  
+    
+  
+  <br><br>
   <div *ngIf="currentTutorial.id" class="edit-form">
-    <h4>Carrier</h4>
+    <h3 style="color:rgb(19, 100, 172)">Carrier - Edit</h3><br><br>
     <form>
       <div class="form-group">
-        <label for="title">Name</label>
+        <label for="title">Carrier Name</label>
         <input
           type="text"
           class="form-control"
