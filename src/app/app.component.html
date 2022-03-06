@@ -1,16 +1,30 @@
-<div>
+
+<div> 
   <nav class="navbar navbar-expand navbar-dark bg-dark">
-    <a href="#" class="navbar-brand">bezKoder</a>
+    <a href="#" class="navbar-brand"><i>SmartGPS</i><small>&reg;</small></a>
     <div class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a routerLink="tutorials" class="nav-link">Tutorials</a>
+        <a routerLink="tutorials" class="nav-link">Fleet Manager</a>
       </li>
       <li class="nav-item">
-        <a routerLink="add" class="nav-link">Add</a>
+        <a routerLink="add" class="nav-link">Add Fleet</a>
       </li>
+      <li class="nav-item">
+        <a routerLink="add" class="nav-link">Active Log</a>
+      </li>
+      <!--<li class="nav-item">
+        <a routerLink="gps" class="nav-link">GPS/MQTT</a>
+      </li>-->
     </div>
   </nav>
-
+  <br>
+  <!--<a class="navbar-brand" href="/"><img src="../../assets/300-semi.png" alt="Logo" style="margin-left:400px; width:10%; margin-top: 10px">&nbsp;&nbsp;&nbsp;Middle of the Map Trucking<small>&reg;</small>-->
+    <!--<div class="container"><h3 style="color: cadetblue; margin-left:75px;">GPS/MQTT - Message Queuing & Telemetry Transport</h3></div>-->
+   
+  <!--</a>-->
+  
+  
+  
   <div class="container mt-3">
     <router-outlet></router-outlet>
   </div>
